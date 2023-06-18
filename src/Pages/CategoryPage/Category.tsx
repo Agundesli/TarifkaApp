@@ -6,7 +6,7 @@ import Config from 'react-native-config';
 import Loading from "../../component/Loading/LoadingCard";
 import Error from "../../component/Error/ErrorCard";
 
-const Category=({navigation}:any) =>{
+const Category=({navigation}) =>{
 
     const {error,loading,data}=useFetch(Config.API_CATEGORIES_URL);
 
